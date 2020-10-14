@@ -165,6 +165,7 @@ a:active {
 #empresa{
     background-color: darkgreen;
     color:#fff;
+    overflow: hidden;
 }
 #empresa h2{
     padding-top: 20px;
