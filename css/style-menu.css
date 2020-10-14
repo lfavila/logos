@@ -2,11 +2,12 @@
   .nav ul{display: none;}
 
   .nav-tgl {
+    float: right;
     display: inline-block;
     cursor: pointer;
     position: relative;
     z-index: 100;
-    left: 30%;
+    right: 4px;
     top: 4px;
     width: 70px;
     height: 65px;
