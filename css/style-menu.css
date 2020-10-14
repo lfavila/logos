@@ -4,9 +4,9 @@
   .nav-tgl {
     display: inline-block;
     cursor: pointer;
-    position: fixed;
+    position: relative;
     z-index: 100;
-    right: 4px;
+    left: 120px;
     top: 4px;
     width: 70px;
     height: 65px;
