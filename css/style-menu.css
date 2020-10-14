@@ -6,7 +6,7 @@
     cursor: pointer;
     position: fixed;
     z-index: 100;
-    left: 50%;
+    right: 4px;
     top: 4px;
     width: 70px;
     height: 65px;

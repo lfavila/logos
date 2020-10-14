@@ -169,6 +169,10 @@ a:active {
 #empresa h2{
     padding-top: 20px;
 }
+#empresa img{
+    float: left;
+    padding-left: 5%;
+}
 #empresa a{
     background-color: #fff;
     padding: 10px;
