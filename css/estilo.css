@@ -222,6 +222,9 @@ a:active {
     border-radius: 10px;
     margin:10px auto;
 }
+#newsletter{
+    width:60%;
+}
 .margem{
     margin:30px auto;
     padding:0 0 0 5%;
