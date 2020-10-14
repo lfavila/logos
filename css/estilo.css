@@ -186,7 +186,7 @@ a:active {
     margin: auto;
     min-height: 200px;
     min-width: 60%;
-    background-image: url(/imagens/planejamento.jpeg);
+    background-image: url(../imagens/planejamento.jpeg);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 50% 100%;
