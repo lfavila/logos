@@ -1,0 +1,361 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    text-align: center;
+}
+
+/*Estilo Base
+================*/
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: darkgreen;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom:20px;
+}
+h1{
+    font-size: 1.8em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.2em;
+}
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	
+}
+
+a:focus {
+	
+}
+
+a:hover {
+	
+}
+
+a:active {
+	
+}
+.justify{
+    text-align:left;
+    line-height:1.3em;
+}
+.botaoVerde{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0 30px 0;
+    border-radius: 20px;
+    color:#fff;
+    background-color: darkgreen;
+
+}
+.padding-section{
+    padding:10px 20px;
+
+}
+.menu-redes ul li{display:inline; padding: 10px 3%; background-color: darkgreen;}
+.menu-redes ul{margin: 20px 0;}
+
+/* Estrutura Mobile
+======================*/
+
+#topo{
+    -webkit-box-shadow: 0px 7px 7px -3px rgba(77,77,77,1);
+    -moz-box-shadow: 0px 7px 7px -3px rgba(77,77,77,1);
+    box-shadow: 0px 7px 7px -3px rgba(77,77,77,1);
+    position: relative;
+    min-height: 80px;
+    background-color: #fff;
+    padding-left: 20px;
+}
+.logo{
+    color: darkgreen;
+    border-left: 2px solid darkgreen;
+    padding: 0 0 0 10px;
+    font-weight: bolder;
+    width:100px;
+    margin-top: 20px;
+    float: left;
+}
+.logo h1{
+    border-left: 19px solid darkgreen;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
+#banner{
+    padding-top: 20px;
+    background-color: #F4F8FC;
+}
+#programador{
+    max-width: 300px;
+    display:block;
+    margin:0 auto;
+}
+#banner a{
+    background-color:transparent;
+    border: 2px solid darkgreen;
+    padding: 10px;
+    border-radius: 10px;
+    color:darkgreen;
+    display: inline-block;
+    margin-top: 20px;
+}
+.controles div{
+    margin:20px;
+    background: #F4F8FC;
+}
+#empresa{
+    background-color: darkgreen;
+    color:#fff;
+}
+#empresa h2{
+    padding-top: 20px;
+}
+#empresa a{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    color:darkgreen;
+    display: inline-block;
+    margin-top: 20px;
+}
+#sistema{
+    background: #F4F8FC;
+}
+#sistema-conteudo{
+    background-color:#fff;
+    width:80%;
+    margin: auto;
+    min-height: 200px;
+    min-width: 60%;
+    background-image: url(/imagens/planejamento.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50% 100%;
+}
+#sistema-conteudo div{
+    width:40%;
+    position: relative;
+    left:50%;
+    padding:10px;
+}
+#setaE{
+    position: relative;
+    right:50%;
+    top:150px;
+}
+#setaD{    
+    position: relative;
+    left:50%;
+    top:140px;
+}
+.contato{
+    background-color: #324E6F;
+    color:#324E6F;
+}
+.contato div{
+    background-color:#fff;
+    padding:30px;
+    width: 80%;
+    border-radius: 10px;
+    margin:10px auto;
+}
+.margem{
+    margin:30px auto;
+    padding:0 0 0 5%;
+}
+#form{
+
+}
+#form p{
+    margin-top: 10px;
+}
+#form input{
+    width:100%;
+}
+#rodape-2{
+    background-color: darkgreen;
+    color:#fff;
+}
+#rodape-2 p{
+    padding: 20px 0;
+}
+
+/*320px a 480px
+--------------
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+
+}
+
+481px a 600px
+--------------
+@media only screen and (min-width: 481px) and (max-width: 600px){
+
+
+}
+
+601px a 787px
+--------------*/
+
+@media only screen and (min-width: 600px){
+body{
+    text-align: center;
+}
+.texto-banner{
+    float: left;
+    width:40%;
+}
+#banner img{
+    float: right;
+}
+#banner a{
+    display:block;
+    width:50%;
+    clear: both;
+    margin:auto;
+}
+.controles{
+    overflow: hidden;
+    
+}
+.controles div{
+    float:left;
+    width:20%;
+    padding: 0 2%;
+}
+
+}
+
+/*Estrutura Desktop
+--------------*/
+@media only screen and (min-width: 787px){
+.nav-tgl{display:none;}
+.nav{
+    float: right;
+    position: relative;
+    top: 10px;
+    padding-right: 20px;
+}
+.nav ul li{
+    display: inline;
+    padding: 0 10px;
+}
+.nav ul li a{
+    color: darkgreen;
+}
+#banner{
+    padding: 2% 10%;
+}
+.controles{
+
+}
+.controles div{
+    width:23%;
+}
+#sobre{
+
+}
+#empresa{
+    overflow: hidden;
+}
+#empresa img{
+    float: right;
+}
+#empresa div{
+    float: left;
+    width: 45%;
+}
+#setaE{
+    top:110px;
+}
+#setaD{    
+    top:100px;
+}
+.contato div{
+    overflow: hidden;
+    margin: 30px auto;
+}
+#largura-texto-contato{
+    float: left;
+    width: 40%;
+}
+#form{
+    float: right;
+    width: 40%;
+    margin-top: 70px;
+}
+#rodape-1{
+}
+#rodape-2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+#rodape-2 p{
+    padding: 2% 5%;
+}
+
+
+}
+
+

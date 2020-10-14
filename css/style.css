@@ -1,0 +1,279 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*Estilo Base
+--------------*/
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom:20px;
+}
+h1{
+    font-size: 1.8em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.2em;
+}
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	
+}
+
+a:focus {
+	
+}
+
+a:hover {
+	
+}
+
+a:active {
+	
+}
+#topo{
+    overflow: hidden;
+    padding: 20px;
+    -webkit-box-shadow: 0px 7px 7px -3px rgba(77,77,77,1);
+    -moz-box-shadow: 0px 7px 7px -3px rgba(77,77,77,1);
+    box-shadow: 0px 7px 7px -3px rgba(77,77,77,1);
+    z-index: 2;
+}
+.logo{
+    float: left;
+    color: darkgreen;
+    border-left: 2px solid darkgreen;
+    padding: 0 0 0 10px;
+    width:;
+    font-weight: bolder;
+}
+.logo h1{
+    border-left: 19px solid darkgreen;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 0 0 10px 0;
+    font-size: 1em;
+}
+.nav{
+    float: right;
+    position: relative;
+    top: 10px;
+}
+.nav ul li{
+    display: inline;
+    padding: 0 10px;
+}
+.nav ul li a{
+    color: darkgreen;
+}
+.botaoVerde{
+    background-color: darkgreen;
+    padding: 10px;
+    border-radius: 20px;
+    color:#fff;
+}
+.botaoVerde span{
+    color: whitesmoke;
+}
+#banner{
+    clear: both;
+    padding: 20px 70px 0 70px;
+    background: #F4F8FC;
+    overflow: hidden;
+    
+    background-image: url(/imagens/programador.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 340px;
+    color: darkgreen;
+}
+#banner div{
+    width: 40%;
+}
+#banner img{
+    width:350px;
+    float: right;
+}
+#banner a{
+    background-color:transparent;
+    border: 2px solid darkgreen;
+    padding: 10px;
+    border-radius: 10px;
+    color:darkgreen;
+    display: inline-block;
+    margin-top: 20px;
+}
+#sobre{
+}
+.controles{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    background: #F4F8FC;
+}
+.controles div{
+    padding: 10% 5%;
+    text-align: center; 
+}
+.espaco-section{
+    padding: 100px 40px;
+}
+#empresa{
+    background-color:darkgreen;
+    overflow: hidden;
+    color:#fff;
+}
+#empresa img{
+    float:right;
+    position: relative;
+    top:-20px;
+    align-items: center;
+}
+#empresa h2{
+    padding-top: 20px;
+}
+#empresa a{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    color:darkgreen;
+    display: inline-block;
+    margin-top: 20px;
+}
+#sistema{
+    background: #F4F8FC;
+    text-align: center;
+}
+#sistema-conteudo{
+    background-color:#fff;
+    width:80%;
+    margin: auto;
+    min-height: 200px;
+    min-width: 60%;
+    background-image: url(/imagens/planejamento.jpeg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#sistema-conteudo div{
+    width:40%;
+    position: relative;
+    left:50%;
+    padding:10px;
+}
+#setaE{
+    float: left;
+    position: relative;
+    right:20px;
+    top: 80px;
+}
+#setaD{    
+    float: right;
+    position: relative;
+    left:20px;
+    top:80px;
+}
+#contato{
+    padding: 100px;
+    background-color: #324E6F;
+}
+#rodape-1{
+    padding: 50px 60px;
+    margin-bottom: 40px;
+}
+#rodape-2{
+    background-color: #167232;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+#rodape-2 p{
+    padding: 2% 5%;
+}
+
+/*320px a 480px
+--------------
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+
+}
+
+481px a 600px
+--------------
+@media only screen and (min-width: 481px) and (max-width: 600px){
+
+
+}
+
+601px a 768px
+--------------*/
+
+@media only screen and (min-width: 320px) and (max-width: 600px){
+body{
+    text-align: center;
+}
+
+}
+
+/*769px e maior
+--------------*/
+@media only screen and (min-width: 769px){
+.nav-tgl{display:none;}
+
+}
